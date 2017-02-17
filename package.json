@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
-    "clean": "rm -rf dist",
     "serve": "http-server . -p 5557",
     "build": "tsc -p tsconfig.json",
     "rollup": "rollup -f iife -c rollup.config.js -o dist/bundle.es2015.js",
